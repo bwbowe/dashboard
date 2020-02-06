@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    margin: auto;
+}
+header {
+    width: 220px;
+    height: 100vh;
+    background-color: #82D173;
+    position: fixed;
+}
+/* grid */
+.grid-container {
+    display: grid;
+    grid-template: repeat(13, 1fr) / repeat(8, 1fr);
+    grid-template-areas: "topbar topbar topbar topbar topbar topbar topbar topbar"
+    "welcome welcome welcome welcome welcome welcome welcome welcome"
+    "welcome welcome welcome welcome welcome welcome welcome welcome"
+    "about about about about about about social social"
+    "about about about about about about social social"
+    "about about about about about about social social"
+    "projects projects projects projects projects calendar calendar calendar"
+    "projects projects projects projects projects calendar calendar calendar"
+    "projects projects projects projects projects calendar calendar calendar"
+    "resume resume resume resume resume resume resume resume"
+    "resume resume resume resume resume resume resume resume"
+    "footer footer footer footer footer footer footer footer"
+    "footer footer footer footer footer footer footer footer";
+    margin-left: 220px;
+    width: 100%;
+    grid-gap: 20px;
+}
+.topbar {
+    background-color: #99DDC8;
+    grid-area: topbar;
+}
+.welcome {
+    background-color: #69A2B0;
+    grid-area: welcome;
+}
+.about {
+    background-color: #548687;
+    grid-area: about;
+}
+.social {
+    background-color: #EEE82C;
+    grid-area: social;
+}
+.projects {
+    background-color: #99DDC8;
+    grid-area: projects;
+}
+.calendar {
+    background-color: #69A2B0;
+    grid-area: calendar;
+}
+.resume {
+    background-color: #548687;
+    grid-area: resume;
+}
+.footer {
+    background-color: #EEE82C;
+    grid-area: footer;
+}
