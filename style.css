@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     display: flex;
     margin: auto;
@@ -5,8 +8,39 @@ body {
 header {
     width: 220px;
     height: 100vh;
-    background-color: #82D173;
+    background-color: #69A2B0;
     position: fixed;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 10px;
+    align-items: center;
+}
+header figure {
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+}
+header img {
+    width: 70%;
+    margin: auto;
+    padding: 0;
+    border-radius: 50%;
+    border: 4px solid #548687;
+}
+header h4 {
+    font-family: "Caveat";
+    color: #99DDC8;
+    font-size: 1.5rem;
+    margin: 0 auto;
+}
+header a {
+    text-decoration: none;
+    color: white;
+    font-family: "Lato";
+}
+header a:hover {
+    color: #EEE82C;
 }
 /* grid */
 .grid-container {
@@ -25,7 +59,7 @@ header {
     "resume resume resume resume resume resume resume resume"
     "footer footer footer footer footer footer footer footer"
     "footer footer footer footer footer footer footer footer";
-    margin-left: 220px;
+    margin-left: 240px;
     width: 100%;
     grid-gap: 20px;
 }
