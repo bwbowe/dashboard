@@ -23,9 +23,14 @@
         <h3><a href="#calendar">CALENDAR</a></h3>
     </header>
     <div class="grid-container">
-        <!-- top bar -->
-        <div class="grid-box topbar">
-            <h1>topbar</h1>
+        <!-- weather bar -->
+        <div class="grid-box weather-bar">
+            <div class="weather">
+                <a class="weatherwidget-io" href="https://forecast7.com/en/35d15n90d05/memphis/?unit=us" data-label_1="MEMPHIS" data-label_2="WEATHER" data-font="Trebuchet MS" data-icons="Climacons Animated" data-theme="pure" data-textcolor="#548687" data-highcolor="#69A2B0" data-lowcolor="#99DDC8" data-suncolor="#EEE82C" >MEMPHIS WEATHER</a>
+                <script>
+                    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+                </script>
+            </div>
         </div>
         <!-- welcome message -->
         <div class="grid-box welcome">
