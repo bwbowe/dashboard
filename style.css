@@ -28,6 +28,12 @@ header figure {
     display: flex;
     flex-direction: column;
 }
+header figure a {
+    font-family: "Raleway", cursive;
+    color: #99DDC8;
+    font-size: 1rem;
+    margin: 0 auto;
+}
 header img {
     width: 70%;
     margin: auto;
@@ -36,7 +42,7 @@ header img {
     border: 4px solid #548687;
 }
 header h4 {
-    font-family: "Caveat", cursive;
+    font-family: "Raleway", cursive;
     color: #99DDC8;
     font-size: 1.5rem;
     margin: 0 auto;
@@ -47,7 +53,7 @@ header a {
     font-family: "Lato", sans-serif;
 }
 header a:hover {
-    color: #EEE82C;
+    color: #99DDC8;
 }
 nav {
     display: flex;
