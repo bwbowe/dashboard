@@ -93,6 +93,11 @@ nav {
 .welcome {
     border: 4px solid #69A2B0;
     grid-area: welcome;
+    font-family: "Raleway", cursive;
+    font-size: 1.25rem;
+    text-align: center;
+    color: #548687;
+    padding: 10px 25px;
 }
 .about {
     border: 4px solid #548687;
