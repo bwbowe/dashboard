@@ -141,6 +141,9 @@ nav h3 {
 .social a {
     width: 40%;
 }
+.social a:hover {
+    opacity: 0.6;
+}
 .social img {
     width: 100%;
     margin: 5px;
